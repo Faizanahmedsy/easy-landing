@@ -27,8 +27,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <NavigationBar />
-          <main className="h-screen px-32">{children}</main>
-
+          <main className=" px-32">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>

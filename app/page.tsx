@@ -1,3 +1,18 @@
+import HeroCentered from "@/components/modules/hero/hero-centered";
+import HeroSide from "@/components/modules/hero/hero-side";
+import { HERO } from "@/constants/data";
+
 export default function Home() {
-  return <h1>Hello world</h1>;
+  return (
+    <>
+      {/* ----------------- HERO SECTIONS -------------------------------------------- */}
+      {/* <HeroCentered mainTxt={HERO.mainTxt} subTxt={HERO.subTxt} /> */}
+
+      <HeroSide
+        mainTxt={HERO.mainTxt}
+        subTxt={HERO.subTxt}
+        image="https://via.placeholder.com/500"
+      />
+    </>
+  );
 }
