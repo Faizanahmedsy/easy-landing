@@ -8,6 +8,8 @@ export default function Home() {
       {/* ----------------- HERO SECTIONS -------------------------------------------- */}
       {/* <HeroCentered mainTxt={HERO.mainTxt} subTxt={HERO.subTxt} /> */}
 
+      {/* fooo */}
+
       <HeroSide
         mainTxt={HERO.mainTxt}
         subTxt={HERO.subTxt}
